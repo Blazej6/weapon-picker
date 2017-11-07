@@ -1,0 +1,37 @@
+body {
+  display: flex;
+  align-items: ;
+  justify-content: center;
+
+}
+
+.instruction {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.weapon-picker {
+  display: flex;
+  justify-content: space-around;
+  width: 200px;
+  background: black;
+}
+h1 {
+  margin: 0;
+}
+.no-underline {
+  text-decoration: none;
+  color: darkgray;
+}
+.no-underline:hover {
+  color: white;
+}
